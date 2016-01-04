@@ -2,7 +2,7 @@
 
 body{
 	padding-top: 50px;
-	background: url('../img/texture.png') top left repeat;
+	/* background: url('../img/texture.png') top left repeat; */
 }
 
 .wrap {
@@ -21,11 +21,11 @@ body{
 }
 
 h1{
-	font-family: 'graduate', cursive;
+	font-family: 'Montserrat Hairline', sans-serif;
 }
 
 h2{
-	font-family: 'pacifico', cursive;
+	font-family: 'pacifico', sans-serif;
 }
 
 /* === TITLE & ENROLL === */

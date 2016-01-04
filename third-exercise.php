@@ -15,7 +15,7 @@ $fileName = ucfirst(basename(__FILE__, '.php'));
         <div class="container">
             <div class="row wrap">
                 <h1><?php echo $fileName ?></h1>
-                <h4>The cookie exists?</h4>
+                <h4>Delete cookie</h4>
             </div><!-- row wrap -->
 
             <div class="row wrap">
@@ -31,6 +31,9 @@ $fileName = ucfirst(basename(__FILE__, '.php'));
 
                 ?>
 
+
+                <a href="delete-cookie.php">Delete cookie</a>
+                
             </div><!-- row wrap -->
 
         </div><!-- container -->

@@ -15,19 +15,21 @@ $fileName = ucfirst(basename(__FILE__, '.php'));
         <div class="container">
             <div class="row wrap">
                 <h1><?php echo $fileName ?></h1>
-                <h4>Create a simple form for send the username to the cookie.</h4>
+                <h4>The cookie exists?</h4>
             </div><!-- row wrap -->
 
             <div class="row wrap">
-                <form class="form-inline" action="cookie.php" method="post">
+                <?php
+                    if (isset($_COOKIE['name'])) {
 
-                    <!-- Asking for the User name -->
-                    <label class="control-label" for="username">Username:</label>
-                    <input class="form-control" type="text" name="username" />
+                        echo "<h5>The cookie has the value <span style='color:green; font-weight: bold;'>" . $_COOKIE['name'] . "</span></h5>";
 
-                    <!-- Submit button -->
-                    <input class="btn btn-group-sm btn-success" type="submit" value="Send!"/>
-                </form><!-- form -->
+                    } else {
+
+                        echo "<h5 style='color:darkred;'>The cookie doesn't exist</h5>";
+                    }
+
+                ?>
 
             </div><!-- row wrap -->
 
