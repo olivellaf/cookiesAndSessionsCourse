@@ -1,4 +1,4 @@
-<?php
+<?php setcookie('name', $_COOKIE['username'], time()-1000);
 /**
  * Created by PhpStorm.
  * User: ondia
@@ -7,4 +7,4 @@
  */
 
 // Deleting the cookie was created
-setcookie('name', $_COOKIE['username'], time()-1000);
+// setcookie('name', $_COOKIE['username'], time()-1000);

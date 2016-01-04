@@ -8,7 +8,4 @@
 
 ?>
 
-<header>
-
-
-</header>
+<header></header>

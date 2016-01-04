@@ -19,6 +19,4 @@ if (isset($_COOKIE['username'])) {
 
 }
 
-
-
 ?>

@@ -31,7 +31,6 @@ $fileName = ucfirst(basename(__FILE__, '.php'));
 
                 ?>
 
-
                 <a href="delete-cookie.php">Delete cookie</a>
                 
             </div><!-- row wrap -->
