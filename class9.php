@@ -6,10 +6,6 @@
  * Time: 16:35
  */
 
-
-require_once('head.php');
-
-
 if (isset($_POST['color'])){
 
     $color = $_POST['color'];
@@ -28,6 +24,11 @@ if (isset($_POST['color'])){
     }
 }
 
+require_once('head.php');
+ini_set('display_errors', 'On');
+error_reporting(E_ALL | E_STRICT);
+
+
 ?>
 
 <div class="container">
@@ -43,18 +44,16 @@ if (isset($_POST['color'])){
 
     <div class="row form">
 
-        <div class="color-div" <?php echo "style='background-color:$color;'"; ?>></div>
+        <div class="color-div" <?php echo "style=\"background-color:$color;\""; ?>></div>
 
-        <form class="" type="post" action="class9.php">
+        <form method="post" action="class9.php">
             <div class="form-group">
-                <label for="color" class="control-label">Choose your color:</label>
-                <input id="color" type="color" name="color">
+                <label for="color-picker" class="control-label">Choose your color:</label>
+                <input id="color-picker" type="color" name="color">
             </div>
-
             <div class="form-group">
                 <input type="submit" class="btn btn btn-success" value="Change color!">
             </div>
-
         </form>
 
 
@@ -67,32 +66,6 @@ if (isset($_POST['color'])){
 
 
 <div class="container">
-    <div class="row visits-done">
-
-<?php
-
-
-
-if (isset($_COOKIE['counter'])) {
-
-    // Increments the counter cookie
-    setcookie('counter', $_COOKIE['counter']+1, time()+365*24*60*60);
-
-    // Message
-    echo "Hello! Visits done: " . $_COOKIE['counter'];
-
-} else {
-
-    // Important to set cookie if it has not been visited yet.
-    setcookie('counter', 1, time()+365*24*60*60);
-
-    // Message
-    echo "Welcome to our page. This is your first time!";
-}
-
-?>
-
-
-    </div>
+    <div class="row visits-done"></div>
 
 </div>
