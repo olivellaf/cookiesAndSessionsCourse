@@ -12,8 +12,8 @@ $date = date("d/m/Y | H:i:s");
 // Very important to let next line on the top of the php file
 setcookie("date", $date, time()+31536000);
 
-require_once('head.php');
-require_once('header.php');
+require_once('../head.php');
+
 
 ?>
 

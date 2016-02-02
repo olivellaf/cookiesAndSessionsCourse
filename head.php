@@ -16,13 +16,13 @@
             <title>Cookies y Sessiones Course</title>
 
             <!-- Bootstrap -->
-            <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+            <link href="/cookiesTest/assets/css/bootstrap.min.css" rel="stylesheet">
 
             <!-- Custom CSS -->
-            <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+            <link rel="stylesheet" type="text/css" href="/cookiesTestassets/css/style.css">
 
             <!-- Font Awesome Icons -->
-            <link rel="stylesheet" type="text/css" href="assets/css/font-awesome/css/font-awesome.min.css">
+            <link rel="stylesheet" type="text/css" href="/cookiesTest/assets/css/font-awesome/css/font-awesome.min.css">
 
             <!-- Google Fonts -->
             <link href='https://fonts.googleapis.com/css?family=Poiret+One|Raleway' rel='stylesheet' type='text/css'>

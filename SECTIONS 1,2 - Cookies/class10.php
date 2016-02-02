@@ -1,6 +1,5 @@
 <?php
 /**
- * Company: Òndia! Brand Marketing
  * Developer: Ferran Olivella Tarragó
  * Date: 2/2/16
  * Time: 15:42

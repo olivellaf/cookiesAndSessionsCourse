@@ -26,7 +26,7 @@ if (isset($_POST['color'])){
 
 ini_set('display_errors', 'On');
 error_reporting(E_ALL | E_STRICT);
-require_once('head.php');
+require_once('../head.php');
 
 
 
