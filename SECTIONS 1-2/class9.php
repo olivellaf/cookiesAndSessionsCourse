@@ -14,7 +14,7 @@ if (isset($_POST['color'])){
 
 } else {
 
-    if(isset($_COOKIE['color'])) {
+    if (isset($_COOKIE['color'])) {
 
         $color = $_COOKIE['color'];
 
@@ -24,9 +24,10 @@ if (isset($_POST['color'])){
     }
 }
 
-require_once('head.php');
 ini_set('display_errors', 'On');
 error_reporting(E_ALL | E_STRICT);
+require_once('head.php');
+
 
 
 ?>

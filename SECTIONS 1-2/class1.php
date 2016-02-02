@@ -19,7 +19,7 @@ $fileName = ucfirst(basename(__FILE__, '.php'));
             </div><!-- row wrap -->
 
             <div class="row wrap">
-                <form class="form-inline" action="../class8.php" method="post">
+                <form class="form-inline" action="class8.php" method="post">
 
                     <!-- Asking for the User name -->
                     <label class="control-label" for="username">Username:</label>

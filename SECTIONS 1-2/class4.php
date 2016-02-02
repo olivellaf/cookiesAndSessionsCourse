@@ -16,7 +16,6 @@ setcookie('name', $username, time()+4800);
 // Read cookies
 if (isset($_COOKIE['username'])) {
 
-
 }
 
 ?>
